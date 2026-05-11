@@ -153,39 +153,79 @@
   color: #47c959a9;
 }
 
-/* 關於我們 */
-.about {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
+
+/* 聯絡我們 */
+.contact-us {
+  background: rgb(79, 122, 79);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
-.about-item {
-  border: 0 2px 2px 0 rgba(0, 0, 0, 0.3);
-  width: 300px;
-}
-
-.about-item h2 {
+.contact-us h2 {
   text-align: center;
-  font-size: 20px;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-. about-item p {
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: justify;
-  font-size: 16px;
+  color: #fff;
+  font-size: 24px;
   line-height: 1.5;
 }
 
+.contact-us .info {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.contact-us .info .info-left {
+  justify-self: flex-start;
+  margin-left: 56px;
+}
+
+.contact-us .info .info-right {
+  padding-left: 20px;
+  letter-spacing: 4px;
+  line-height: 1.2;
+  width: 450px;
+  color: white;
+}
+
+.info-text {
+  margin-bottom: 10px;
+}
+
+.input-text {
+  width: 100%;
+  padding: 10px;
+}
+
+.send-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 100px;
+  background: #47c959a9;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 400px;
+  padding: 5px;
+}
+
+
 /* 頁腳 */
 .footer {
-  background: gray;
-  color: white;
+  color: black;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  left: 50%;
+  transform: translateX(-42%);
+}
+
+.footer-info {
+  right: 50%;
+  transform: translateX(40%);
 }
