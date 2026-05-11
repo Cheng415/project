@@ -1,40 +1,134 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-  <body>
-    <div class="wrap">
-      <div class="header">
-        <img src="images/logo.png" alt="">
+
+<body>
+  <div class="wrap">
+    <!-- 社群連結 -->
+    <div class="social-links">
+      <div class="facebook">
+        <a href="#"><img
+            src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/facebookIcon.png"
+            alt="" />粉絲團</a>
       </div>
-      <div class="content">
-        <div class="course">
-          <div class="course-item">
-            <img src="images/html.png" alt="">
-            <h2>HTML5 基礎教學</h2>
-            <p>學習網頁開發的基礎知識</p>
-          </div>
-          <div class="course-item">
-            <img src="images/rwd.png" alt="">
-            <h2>RWD 基礎教學</h2>
-            <p>學習網頁開發的基礎知識</p>
-          </div>
-          <div class="course-item">
-            <img src="images/jQuery.png" alt="">
-            <h2>jQuery 基礎教學</h2>
-            <p>學習網頁開發的基礎知識</p>
-          </div>
-        </div>
-      </div>
-      <div class="footer">
-        <p>
-          表尾
-        </p>
+      <div class="twitter">
+        <a href="#"><img
+            src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/twitterIcon.png"
+            alt="" />聯絡我們</a>
       </div>
     </div>
-  </body>
+    <!-- 導覽列 -->
+    <div class="header">
+      <a class="logo" href=""><img
+          src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/logo.png" alt="" /></a>
+      <ul class="menu">
+        <li><a href="#">首頁</a></li>
+        <li><a href="#">產品介紹</a></li>
+        <li><a href="#">聯絡我們</a></li>
+      </ul>
+    </div>
+    <!-- 橫幅 -->
+    <div class="banner">
+      <div class="banner-mask">
+        <div class="banner-content">
+          <p>六角學院<br />讓您奠定良好的前端基礎</p>
+        </div>
+      </div>
+    </div>
+    <!-- 課程內容 -->
+    <div class="content">
+      <div class="course">
+        <div class="course-item">
+          <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/html.png" alt="" />
+          <h2>HTML5 基礎教學</h2>
+          <p>
+            主流前端網站設計的基礎就在六角學院，在這裡不再是填鴨式教學，而是透過實際的範例，瞭解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方式
+          </p>
+        </div>
+        <div class="course-item">
+          <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/rwd.png" alt="" />
+          <h2>RWD 基礎教學</h2>
+          <p>
+            響應式網站設計(Responsive Web
+            Design)，目前大使用者均是以手機瀏覽的情況下，響應式網頁已經是必備的。六角學院將會提供業界響應是開發方式，讓學生瞭解行動版開發技巧。
+          </p>
+        </div>
+        <div class="course-item">
+          <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/jQuery.png" alt="" />
+          <h2>jQuery 基礎教學</h2>
+          <p>
+            本課程有以下特色 <br />．了解變數的使用方法 <br />．學習並操作DOM
+            <br />．學習基本數學計算發法 <br />．套件的操作及運用
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- 線上即時體課程差的差異 -->
+    <div class="online-course-difference">
+      <h2>線上即時體課程差的差異</h2>
+
+      <table class="online-course-difference-table">
+        <tr>
+          <th>項目</th>
+          <th>Hex School線上課程</th>
+          <th>一般線上課程</th>
+          <th>實體課程</th>
+        </tr>
+        <tr>
+          <td>費用</td>
+          <td class="high">較低</td>
+          <td class="high">較低</td>
+          <td>較高</td>
+        </tr>
+        <tr>
+          <td>學習效果</td>
+          <td>一般</td>
+          <td class="high">較低</td>
+          <td class="high">很好</td>
+        </tr>
+        <tr>
+          <td>Code review</td>
+          <td class="high">有</td>
+          <td>無</td>
+          <td>不一定</td>
+        </tr>
+        <tr>
+          <td>課程更新速度</td>
+          <td class="high">普通</td>
+          <td class="high">普通</td>
+          <td>較慢</td>
+        </tr>
+        <tr>
+          <td>多次複習</td>
+          <td class="high">可</td>
+          <td>可</td>
+          <td>不可</td>
+        </tr>
+        <tr>
+          <td>字幕</td>
+          <td class="high">有</td>
+          <td>不一定</td>
+          <td>板書</td>
+        </tr>
+      </table>
+    </div>
+    <!--聯絡我們-->
+    <div class="contact-us">
+      <h2>對我們課程有興趣嗎?<br />歡迎留下您的資料</h2>
+    </div>
+    <!-- 頁腳 -->
+    <div class="footer">
+      <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/footerLogo.png" alt="" />
+      <p>聯絡我們：hexschool@gmail.com</p>
+      <p>電話：0999123456</p>
+    </div>
+  </div>
+</body>
+
 </html>
