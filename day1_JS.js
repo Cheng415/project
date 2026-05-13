@@ -45,8 +45,8 @@ add(8)
 let sum = 0;
 
 function add(num) {
-  sum += num;
-  console.log(sum);
+    sum += num;
+    console.log(sum);
 }
 add(2)
 add(4)
@@ -66,11 +66,11 @@ addTwo(9,100)
 function addTwo(a, b) {
     console.log(a + b);
 }
-addTwo(5,10)
-addTwo(4,20)
-addTwo(9,100)
+addTwo(5, 10)
+addTwo(4, 20)
+addTwo(9, 100)
 
-/*第五題 
+/*第五題        
 // input 輸入
 addNumberAndString(5,10,30)
 addNumberAndString(4,20,22)
@@ -84,6 +84,6 @@ addNumberAndString(9,100,44)
 function addNumberAndString(a, b, c) {
     console.log(`第一加第二個參數加總為 ${a + b}，第三個參數為 ${c}`);
 }
-addNumberAndString(5,10,30)
-addNumberAndString(4,20,22)
-addNumberAndString(9,100,44)
+addNumberAndString(5, 10, 30)
+addNumberAndString(4, 20, 22)
+addNumberAndString(9, 100, 44)
