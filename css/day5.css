@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.wrap {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+/* 
+已經設置的樣式都不需要改 
+同學只需添加背景跟文字顏色即可
+*/
+
+.content {
+  max-width: 800px;
+  margin: 0 auto 50px;
+  font-size: 32px;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box1 {
+  height: 240px;
+  background-color:green;
+  background-image: url("https://i.ibb.co/3yhw5PR/string-of-beads.png");
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.box2 {
+  height: 240px;
+  background-color: black;
+  background-image: url("https://i.ibb.co/3yhw5PR/string-of-beads.png");
+  color: white;
+  background-repeat: repeat-x;
+}
