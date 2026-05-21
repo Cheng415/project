@@ -1,0 +1,92 @@
+*,
+*::befor,
+*::after {
+  box-sizing: border-box;
+}
+
+
+.wrap {
+    width: 800px;
+    width: 50% auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #A6A5C4;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.nav li {
+    margin-right: 36px;
+    margin-left: 36px;
+}
+
+
+.nav a {
+    display: block;
+    padding: 14px 0;
+}
+
+
+
+.navBtn {
+    text-decoration: none;
+    color: #000;
+}
+
+.navBtn:hover {
+    color: #fff;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 380px;
+    height: 380px;
+    background: #DEB068;
+}
+
+.information {
+    width: 400px;
+    height: 14px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn a {
+    display: block;
+    width: 120px;
+    background: #d4dcd6;
+    text-align: center;
+    padding: 12px 0;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.btn a:hover {
+    background: #44617b;
+    color: #fff;
+}
+
